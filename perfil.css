@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Viga', sans-serif;
+}
+h3{
+    font-family: 'Viga', sans-serif;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #084F8C;
+    height: 80px;
+}
+
+#nav ul li{
+    list-style: none;
+    font-family: 'Viga', sans-serif;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#nav ul li a:hover{
+    color: #bebebe;
+    font-size: 19px;
+    transition: 0.5s ease-out;
+}
+
+#barra{
+    width: 50%;
+}
+
+#barra ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#perfil{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+    margin-right: 50px;
+}
+
+#perfil h3{
+    color: white;
+    font-size: 18px;
+}
+
+#foto{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    gap: 30px;
+}
+
+#fotoperfil{
+    width: 150px;
+    border-radius: 50%;
+}
+
+#direita ul{
+    list-style: none;
+}
+
+#direita ul li{
+    margin-bottom: 8px;
+}
+
+#bot{
+    display: flex;
+}
+
+#bot ul{
+    list-style: none;
+}
+
+#meustalentos{
+    display: grid;
+    width: 33%;
+    justify-content: center;
+}
+
+#meustalentos h3{
+    display: flex;
+    justify-content: center;
+}
+
+#meustalentos li{
+    font-family: 'Viga', sans-serif;
+    margin-top: 10px;
+}
+
+#talentos{
+    display: flex;
+    gap: 30px;
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #05F26C;
+    border-color: #05F26C;
+    font-size: 18px;
+    font-family: 'Viga', sans-serif;
+    border-style: solid;
+    box-shadow: 0px 5px 15px rgb(175, 175, 175);
+}
+
+#eventos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+#eventos img{
+    width: 200px;
+}
+
+#eventos h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+#grupos{
+    display: grid;
+    justify-content: center;
+    width: 33%;
+}
+
+#botões{
+    display: grid;
+    justify-content: center;
+}
+
+#botões button{
+    width: 100px;
+}
+
+button:hover{
+    cursor: pointer;
+   }
+
+
